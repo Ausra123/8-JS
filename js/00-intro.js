@@ -9,3 +9,6 @@ Konseptai:
 6) oop (šeštas brolis) – objektinis programavimas – tai „skonio reikalas“ 😊.
 
 */
+console.log('Labas! Ką tu?');
+console.log("Labas! Ką tu?");
+console.log("Labas!",  66, "Ką tu?");
