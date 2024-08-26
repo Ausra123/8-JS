@@ -3,7 +3,8 @@ STRINGS (tekstas)
 inicijavimo būdai:
 - viengubos (') kabutės
 - dvigubos (") kabutės
-- bactick (`) kabutės
+- backtick (`) kabutės
+- backslash \ 
 
 */
 const kabutes1 = 'Labas';
@@ -44,7 +45,7 @@ console.log(sayHi);
 const imgSrc= './img/logo.png';
 const HTML = '<header>\n\
         <nav>\n\
-            <img src="' + imgSrc + ' alt="logo" class="logo">\n\
+            <img src="' + imgSrc + '" alt="logo" class="logo">\n\
        <a href="#">Link</a>\n\
        <a href="#">Link</a>\n\
        <a href="#">Link</a>\n\

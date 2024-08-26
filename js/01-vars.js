@@ -8,7 +8,7 @@ var - keičiama reikšmė
 Kintamųjų tipai:
 number (skaičius)
 string (tekstas)
-boolen (loginė reikšmė)
+boolean (loginė reikšmė)
 array (sąrašas, masyvas)
 object (objektas)
 null (reikšmė kuri neegzistuoja, bet yra, t.y. užima vietą)
