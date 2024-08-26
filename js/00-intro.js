@@ -11,4 +11,5 @@ Konseptai:
 */
 console.log('Labas! Ką tu?');
 console.log("Labas! Ką tu?");
-console.log("Labas!",  66, "Ką tu?");
+console.log(456);
+console.log("Man yra",  44, "metai");
