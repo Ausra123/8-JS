@@ -56,6 +56,16 @@ const HTML = '<header>\n\
     </header> ';
     console.log(HTML);
 
+const H0 = '<header>'+
+    '<nav>'+
+        '<img src="' + imgSrc + '" alt="logo" class="logo">'+
+   '<a href="#">Link</a>'+
+   '<a href="#">Link</a>'+
+   '<a href="#">Link</a>'+
+    '</nav>'+
+                '</header> ';
+console.log(H0);
+
     const HTMLbacktick = `<header>
         <nav>
             <img src="${imgSrc}" alt="logo" class="logo">
