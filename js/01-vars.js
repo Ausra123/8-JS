@@ -49,4 +49,3 @@ vaikas:[
 ]
 };
 console.log(petras);
-
