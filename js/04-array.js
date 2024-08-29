@@ -21,3 +21,43 @@ console.log(paskutinisZodis);
 
 console.log('------------------');
 
+/* metodai
+- .push()       - pridėti į galą naują reikšmę
+- .unshift()    - pridėti į priekį naują reikšmę
+- .pop()        - išimti iš galo (paskutinį)
+- .shift()      - išimti iš priekio (pirmąjį)
+*/
+
+const abc=['b', 'c'];
+console.log(abc);
+
+abc.push ('d');
+console.log(abc);
+
+abc.unshift ('a');
+console.log(abc);
+
+abc.pop ();
+console.log(abc);
+
+abc.shift ();
+console.log(abc);
+
+console.log("-------------")
+
+console.log(abc.reverse()); /*sukeičia elementus vietomis, t. y. paskutinį į pirmąjį ir t. t. eilės tvarka*/
+console.log(abc);
+const a1=['a', 'b'];
+const a2=['c', 'd'];
+const a12=a1.concat(a2); /*sudeda du masyvus*/
+console.log(a1);
+console.log(a2);
+console.log(a12);
+
+console.log("-------------")
+
+const modern1 =[...a1, ...a2,...a12];/*sudeda masyvus*/
+console.log(modern1);
+
+const modern2 =[...a2,...a1]; /*sukeičia elementus vietomis*/
+console.log(modern2);
